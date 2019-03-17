@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <math.h>
+#include "print.h"
 
 void allprint(void) {
 	uint8_t p[] = {
@@ -85,6 +86,14 @@ void allprint(void) {
 	sum1 = (s1 *pow(16, 2)) + (s2);
 	printf("%d", sum1);
 	printf("\n");
+	
+	printf("http:");
+	for(int i=54;i<70;i++){
+	printf("%d",p[i]);
+}printf("\n");
+
 }
+
+
 
 
