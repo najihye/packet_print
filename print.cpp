@@ -89,7 +89,7 @@ void allprint(void) {
 	
 	printf("http:");
 	for(int i=54;i<70;i++){
-	printf("%d",p[i]);
+	printf("%c",p[i]);
 }printf("\n");
 
 }
